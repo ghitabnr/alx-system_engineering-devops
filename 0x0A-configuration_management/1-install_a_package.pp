@@ -1,5 +1,5 @@
-# install flask 2.1.0 from pip3
+# install flask 1.1.1 from pip3
 package { 'flask' :
-    ensure   => '2.1.0',
+    ensure   => '1.1.1',
     provider => 'pip3',
     }
